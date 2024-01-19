@@ -397,6 +397,7 @@ var VanillaModal = (function () {
 
         return {
           add: add.bind(this)
+          
         };
       },
       writable: true,
@@ -419,5 +420,3 @@ var VanillaModal = (function () {
     window.VanillaModal = VanillaModal;
   }
 })();
-
-var modal = new VanillaModal();
